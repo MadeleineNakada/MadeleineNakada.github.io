@@ -8,6 +8,14 @@
         <link rel="stylesheet" href="css/bootstrapCSS/bootstrap.css">
         <script type="text/javascript" src="carousel.js"></script>
 
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        //<script type="text/javascript" src="script.js"></script>
+        <script> 
+        $(function(){
+          $("#includedContent").load("homeSlide.html"); 
+        });
+        </script> 
+
 
         <title>Madeleine Nakada</title>
     </head>
@@ -40,8 +48,8 @@
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
-                    <div class="item active"style="height: 100%">
-                        <img src="images/samplepic.jpg" alt="Chania">
+                    <div id="includedContent" class="item active"style="height: 100%">
+                        
                     </div>
 
                     <div class="item">
