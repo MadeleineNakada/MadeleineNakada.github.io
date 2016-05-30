@@ -1,11 +1,36 @@
-#header{
+#header, #footer{
 	background-color: #cccccc;
 	overflow: auto;
+	height: 70px;
+}
+
+#header{
+	position: relative;
+
+}
+
+#footer{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+#main{
+	width: 90%;
+	float: center;
+	margin-left: 5%;
 }
 
 #myCarousel{
 	height: 100%;
 }
+
+#menu{
+	position: absolute;
+	bottom: 15px;
+	display: inline;
+	right: 0px
+	}
 
 div{
 }
@@ -15,7 +40,7 @@ h1{
 }
 
 .half-column{
-	width: 49%;
+	width: 50%;
 }
 
 .third-column{
@@ -43,11 +68,9 @@ h1{
 }
 
 .button{
-	width: 24%;
+	width: 25%;
 	float: left;
 	text-align: center;
-	border-width: 1px;
-	border: solid;
 }
 
 html, body{
