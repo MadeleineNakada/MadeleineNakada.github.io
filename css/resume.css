@@ -1,0 +1,56 @@
+#header{
+	background-color: #cccccc;
+	overflow: auto;
+}
+
+#myCarousel{
+	height: 100%;
+}
+
+div{
+}
+
+h1{
+	font-family: arial;
+}
+
+.half-column{
+	width: 49%;
+}
+
+.third-column{
+	width: 33%;
+}
+
+.twothird-column{
+	width: 66%;
+}
+
+.left-column{
+	float: left;
+}
+
+.right-column{
+	float: right;
+}
+
+.left-padding{
+	padding-left: 15px;
+}
+
+.right-padding{
+	padding-right: 15px;
+}
+
+.button{
+	width: 24%;
+	float: left;
+	text-align: center;
+	border-width: 1px;
+	border: solid;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
