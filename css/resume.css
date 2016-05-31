@@ -1,5 +1,5 @@
 #header, #footer{
-	background-color: #cccccc;
+	background-color: #737373;
 	overflow: auto;
 	height: 70px;
 }
@@ -19,18 +19,24 @@
 	width: 90%;
 	float: center;
 	margin-left: 5%;
+	background-color: #cccccc;
 }
 
 #myCarousel{
 	height: 100%;
+	padding: 15px;
 }
 
 #menu{
 	position: absolute;
 	bottom: 15px;
 	display: inline;
-	right: 0px
-	}
+	right: 5%
+}
+
+#logo{
+	padding-left: 5%;
+}
 
 div{
 }
@@ -71,6 +77,15 @@ h1{
 	width: 25%;
 	float: left;
 	text-align: center;
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color: #FFFFFF;
+}
+
+.carouselInner{
+	width: 70%;
 }
 
 html, body{

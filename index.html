@@ -9,12 +9,14 @@
         <script type="text/javascript" src="carousel.js"></script>
 
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-        //<script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <!--
         <script> 
         $(function(){
           $("#includedContent").load("homeSlide.html"); 
         });
         </script> 
+    -->
 
 
         <title>Madeleine Nakada</title>
@@ -22,17 +24,23 @@
 
     <body>
         <div id="header">
-            <div class="third-column left-column">
-                <div class="left-padding">
+            <div id="logo" class="half-column left-column">
                     <h1>Madeleine Nakada</h1>
-                </div>
             </div>
+
+            <script>
+                //script for buttons
+                function test(x){
+                    alert("Index is " + x)
+                }
+            </script>
+
             <div id="menu" class="half-column right-column">
                 <div class="right-padding">
-                    <div class="button">Home</div>
-                    <div class="button">Resume</div>
-                    <div class="button">About Me</div>
-                    <div class="button">Contact</div>
+                    <div class="button" onClick="test(0)"><b>Home</b></div>
+                    <div class="button" onClick="test(1)"><b>Resume</b></div>
+                    <div class="button" onClick="test(2)"><b>About Me</b></div>
+                    <div class="button" onClick="test(3)"><b>Contact</b></div>
                 </div>
             </div>
         </div>
@@ -49,7 +57,14 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div id="includedContent" class="item active"style="height: 100%">
-                        
+                        <h2>Home</h2>
+                        <p>Church-key polaroid seitan farm-to-table iPhone, XOXO synth keffiyeh cray chillwave DIY. Typewriter beard kickstarter migas before they sold out neutra, seitan flannel 90's pickled vice hoodie deep v quinoa sriracha. Selvage trust fund direct trade raw denim tilde. Echo park celiac locavore put a bird on it, tilde waistcoat hoodie. Chillwave freegan roof party keffiyeh sriracha 3 wolf moon. Bitters keytar disrupt banh mi yr, umami photo booth celiac asymmetrical polaroid tattooed affogato lo-fi jean shorts truffaut. Fap trust fund organic, cornhole etsy keffiyeh tousled roof party heirloom irony single-origin coffee.
+
+                        Narwhal bushwick gochujang migas synth artisan. Disrupt yuccie artisan kombucha locavore before they sold out. Migas squid gentrify, shoreditch mlkshk tote bag neutra helvetica disrupt pop-up chartreuse umami truffaut chia williamsburg. Kombucha slow-carb humblebrag hoodie ugh. Vegan listicle biodiesel shoreditch, mlkshk austin everyday carry narwhal four loko tote bag semiotics. Mumblecore humblebrag cold-pressed, tofu biodiesel cornhole ugh gluten-free banjo banh mi aesthetic everyday carry XOXO typewriter. Pabst next level normcore, gentrify before they sold out cronut deep v viral scenester vice.
+
+                        Yuccie mlkshk mumblecore truffaut trust fund schlitz. Try-hard viral hammock church-key, bicycle rights man braid stumptown roof party. Messenger bag marfa XOXO retro literally. Franzen ennui fanny pack try-hard, farm-to-table chia roof party literally austin. Kickstarter four dollar toast trust fund letterpress cold-pressed, fingerstache banjo. Butcher semiotics sustainable tofu, bicycle rights paleo hoodie deep v. Mustache selvage echo park flannel.
+
+                        Brunch tilde small batch cornhole, man bun gastropub hammock bushwick thundercats vinyl master cleanse keytar try-hard. 3 wolf moon health goth everyday carry, yuccie blog marfa pug actually gastropub pitchfork letterpress gentrify. Man bun williamsburg tattooed jean shorts, +1 blog flannel offal vinyl tousled street art fashion axe. Irony echo park intelligentsia knausgaard paleo, small batch trust fund distillery. Venmo knausgaard selfies, vegan actually PBR&B messenger bag synth godard sartorial listicle. Man braid put a bird on it hashtag craft beer four dollar toast viral. Pug chambray shabby chic, normcore brooklyn mixtape cred PBR&B selvage yr vice fanny pack.</p>
                     </div>
 
                     <div class="item">
